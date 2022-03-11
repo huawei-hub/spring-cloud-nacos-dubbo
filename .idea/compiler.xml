@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer" />
+        <module name="service-api" />
+        <module name="service-zuul" />
+        <module name="producer" />
+        <module name="dubbo-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="dubbo-zuul" options="-parameters" />
+      <module name="producer" options="-parameters" />
+      <module name="service-api" options="-parameters" />
+      <module name="service-zuul" options="-parameters" />
+      <module name="spring-cloud-nacos-dubbo" options="-parameters" />
+    </option>
+  </component>
+</project>

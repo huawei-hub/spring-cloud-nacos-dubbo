@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: service-zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+dubbo:
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+#  registry:
+#    address: spring-cloud://localhost
+#  scan:
+#    base-packages: com.hua.service
+
+
+zuul:
+  routes:
+    api-a:
+      path: /consumer/**
+      serviceId: consumer
+    api-b:
+      path: /producer/**
+      serviceId: producer
+
