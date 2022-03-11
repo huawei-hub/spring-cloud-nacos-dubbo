@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a12b9701-fd79-46cc-9911-647129cc520f" name="Default Changelist" comment="" />
+    <list default="true" id="a12b9701-fd79-46cc-9911-647129cc520f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -26,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="26BpQDiYnswDopII5eS9vdyW6uw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +43,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service-zuul/src/main/resources" />
@@ -156,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646906815798</updated>
-      <workItem from="1646906820571" duration="17703000" />
+      <workItem from="1646906820571" duration="19085000" />
     </task>
     <servers />
   </component>
@@ -192,22 +198,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1646978732404" />
-    <state width="1014" height="176" key="GridCell.Tab.0.bottom" timestamp="1646984653738">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1646986748065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1014" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646984653738" />
-    <state width="1014" height="176" key="GridCell.Tab.0.center" timestamp="1646984653738">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646986748065" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1646986748065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1014" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1646984653738" />
-    <state width="1014" height="176" key="GridCell.Tab.0.left" timestamp="1646984653738">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1646986748065" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1646986748065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1014" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1646984653738" />
-    <state width="1014" height="176" key="GridCell.Tab.0.right" timestamp="1646984653738">
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1646986748065" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1646986748065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1014" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1646984653738" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1646986748065" />
     <state width="1014" height="176" key="GridCell.Tab.1.bottom" timestamp="1646984653738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
