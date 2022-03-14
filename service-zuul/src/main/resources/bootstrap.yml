@@ -8,6 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        enabled: true
+
 
 dubbo:
   protocols:
@@ -20,12 +22,4 @@ dubbo:
 #    base-packages: com.hua.service
 
 
-zuul:
-  routes:
-    api-a:
-      path: /consumer/**
-      serviceId: consumer
-    api-b:
-      path: /producer/**
-      serviceId: producer
 

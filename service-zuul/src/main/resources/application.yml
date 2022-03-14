@@ -1,0 +1,15 @@
+zuul:
+  routes:
+    consumer:
+      path: /consumer/**
+      serviceId: consumer
+    producer:
+      path: /producer/**
+      serviceId: producer
+#      url: http://localhost:9100
+
+#producer:
+#  ribbon:
+#    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#    listOfServers: localhost:9100,localhost:9101
