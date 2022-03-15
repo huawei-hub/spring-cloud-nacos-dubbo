@@ -1,12 +1,14 @@
 zuul:
   routes:
-    consumer:
+    con:
       path: /consumer/**
       serviceId: consumer
-    producer:
+    pro:
       path: /producer/**
       serviceId: producer
-#      url: http://localhost:9100
+  ignored-services: pro  #忽略服务，防止服务入侵。不好使
+  ignored-patterns: [/**/test1/**] # 忽略接口
+
 
 #producer:
 #  ribbon:

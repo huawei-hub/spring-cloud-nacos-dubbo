@@ -10,8 +10,8 @@ public class ProducerController {
     @Value("${server.port}")
     private String port;
 
-    @GetMapping("/getP")
+    @GetMapping("/pro")
     public String getP() {
-        return "producer -> getP -> " + port;
+        return "producer -> pro -> " + port;
     }
 }
